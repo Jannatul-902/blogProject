@@ -19,3 +19,10 @@ Route::middleware('auth')->group(function(){
     Route::get('/profile', [HomeController::class, 'update'])->name('profile.update');
     Route::get('/profile', [HomeController::class, 'delete'])->name('profile.delete');
 });
+
+
+Route::get('/post_page', [AdminController::class, 'post_page']);
+
+Route::post('/add_post', [AdminController::class, 'add_post']);
+
+Route::get('/show_post', [AdminController::class, 'show_post']);
