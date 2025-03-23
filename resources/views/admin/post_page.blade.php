@@ -46,17 +46,17 @@
                         <input type="text" name="title">
                     </div>
 
-                    <div class="div_center">>
+                    <div class="div_center">
                         <label>Post Description</label>
                        <textarea name="description"></textarea>
                     </div>
 
-                    <div class="div_center">>
+                    <div class="div_center">
                         <label>Add Image</label>
                         <input type="file" name="image">
                     </div>
 
-                    <div class="div_center">>
+                    <div class="div_center">
 
                         <input type="submit" class="btn btn-primary">
                     </div>
